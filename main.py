@@ -1,3 +1,9 @@
+"""Copy the bytes of entry_image.jpg beside this script to entry.png.
+
+Use the directory specified by MAKEFUN_OUTPUT_DIR when set, or /output
+otherwise. Create the output directory if it does not exist.
+"""
+
 import os
 from pathlib import Path
 
